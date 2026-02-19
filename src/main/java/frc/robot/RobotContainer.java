@@ -25,6 +25,7 @@ public class RobotContainer {
 
   private void configureBindings() {
     controller.y().debounce(0.1).whileTrue(intake.runIntake()).onFalse(intake.stopIntake());
+    controller.a().debounce(0.1).whileTrue(intake.runOuttake()).onFalse(intake.stopIntake());
 
   }
 
