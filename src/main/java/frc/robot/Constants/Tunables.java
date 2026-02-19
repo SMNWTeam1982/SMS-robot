@@ -36,6 +36,5 @@ public class Tunables {
                 new DifferentialDriveKinematics(Meters.of(0.6));
     }
 
-    public static final SparkBaseConfig DRIVE_MOTOR_CONFIG =
-            new SparkMaxConfig().smartCurrentLimit(35).idleMode(SparkBaseConfig.IdleMode.kCoast);
+   
 }

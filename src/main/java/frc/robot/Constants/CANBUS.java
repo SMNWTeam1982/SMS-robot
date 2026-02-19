@@ -13,10 +13,10 @@ public class CANBUS {
     }
 
     public static final class DriveIDs {
-        public static final int LEFT_FRONT_ID = 2;
-        public static final int LEFT_BACK_ID = 1;
-        public static final int RIGHT_FRONT_ID = 4;
-        public static final int RIGHT_BACK_ID = 3;
+        public static final int LEFT_LEAD_ID = 3;
+        public static final int LEFT_FOLLOWER_ID = 4;
+        public static final int RIGHT_LEAD_ID = 2;
+        public static final int RIGHT_FOLLOWER_ID = 1;
 
         public static final int GYRO_ID = 0;
     }
